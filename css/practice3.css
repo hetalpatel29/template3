@@ -1,0 +1,197 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    .row {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .box {
+        width: 33.333%;
+        float: left;
+        box-sizing: border-box;
+        padding: 0px 10px;
+        overflow: hidden;
+    }
+    
+    .subbox {
+        width: 100%;
+        position: relative;
+    }
+    
+    .subbox img {
+        height: 400px;
+        width: 100%;
+    }
+    
+    .iconbar {
+        position: absolute;
+        width: 100%;
+        height: 40px;
+        bottom: -40px;
+        color: white;
+        padding-bottom: 15px;
+        transition: 1s;
+    }
+    
+    .clock {
+        font-size: 20px;
+        float: left;
+        padding-left: 20px;
+        padding: 20px;
+    }
+    
+    .calender {
+        float: right;
+        font-size: 20px;
+        padding-right: 20px;
+        padding: 20px;
+    }
+    
+    .box:hover .iconbar {
+        bottom: 0px;
+    }
+    
+    .iconbar1 {
+        position: absolute;
+        width: 400px;
+        height: 10%;
+        top: 50%;
+        left: 90%;
+        text-align: center;
+        transition: 1s;
+    }
+    
+    .box:hover .iconbar1 {
+        left: 10%;
+    }
+    
+    .instagramlogo {
+        color: red;
+        font-size: 50px;
+        text-align: left;
+        margin-right: 50px;
+    }
+    
+    .h1 {
+        padding-top: 40px;
+        height: 50px;
+        width: 50%;
+        font-size: 20px;
+        transition: 2s;
+        overflow: hidden;
+        text-align: center;
+        margin: auto;
+        color: darkcyan;
+    }
+    
+    .h1::before {
+        height: 50px;
+        width: 200px;
+        content: '';
+        border: 5px solid red;
+        position: absolute;
+        box-sizing: border-box;
+        right: 50%;
+        transition: 1s;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        top: 50px;
+    }
+    
+    .h1::after {
+        content: '';
+        height: 50px;
+        width: 200px;
+        border: 5px dotted red;
+        position: absolute;
+        left: 50%;
+        transition: 1s;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        top: 45px;
+    }
+    
+    .iconbar2 {
+        position: absolute;
+        width: 50%;
+        height: 40px;
+        top: 0;
+        right: 100%;
+        color: white;
+        padding-bottom: 15px;
+        transition: 5s;
+    }
+    
+    .facebooklogo {
+        padding-top: 100px;
+        color: royalblue;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .box:hover .iconbar2 {
+        top: 85%;
+        left: 30%;
+        width: 50%;
+        height: 40px;
+    }
+    /* .h1::before {
+        height: 50px;
+        width: 100%;
+        content: '';
+        border: 5px solid red;
+        position: absolute;
+        box-sizing: border-box;
+        left: 100%;
+        transition: 1s;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        bottom: 10px;
+    }
+    
+    .h1:hover::before {
+        border: 5px solid red;
+        width: 35%;
+        left: 15%;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        font-size: 50px;
+    }
+    
+    .h1::after {
+        content: '';
+        height: 50px;
+        width: 100%;
+        border: 5px dotted red;
+        position: absolute;
+        left: 100%;
+        transition: 1s;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        bottom: 10px;
+    }
+    
+    .h1:hover::after {
+        content: '';
+        width: 35%;
+        left: 50%;
+        transition: 1s;
+        border: 5px dotted red;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    } */
